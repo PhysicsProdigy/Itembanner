@@ -1,0 +1,14 @@
+name: Itembanner
+version: ${project.version}
+main: me.physicsprodigy.itembanner.Itembanner
+api-version: 1.13
+authors: [PhysicsProdigy]
+description: This plugin will ban items in your world
+commands:
+  banneditems:
+    description: Shows an inventory of banned items
+permissions:
+  banneditemscommand:
+    default: false
+  itemsbeingbanned:
+    default: false
